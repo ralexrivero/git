@@ -1,0 +1,5 @@
+# untracked files
+*.log
+
+# untracked folders
+json/

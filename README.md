@@ -5,6 +5,7 @@
 - `ubuntu`
 - `bash`
 - `vim`
+- `VS Code`
 - `git`
 - `github`
 
