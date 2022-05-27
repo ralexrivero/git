@@ -1,5 +1,7 @@
 # untracked files
 *.log
+file.dat2
 
 # untracked folders
 json/
+
