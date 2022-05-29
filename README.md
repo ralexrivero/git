@@ -24,6 +24,7 @@
 `git branch` see the branches an star the actual branch
 `git branch <name>` create the named branch
 `git checkout <name>` change to the named branch
+`git branch -v` show branches and commit 
 
 > see branch log
 `git log`
