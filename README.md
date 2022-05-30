@@ -11,7 +11,8 @@
 
 ## Commands
 
-> basics
+### basics
+
 `git status` see the status of the branch, tracked, untracked, commited, changed files
 `git diff` see differences in files
 `git diff --staged` see differences in staged files
@@ -19,19 +20,29 @@
 `git commit -m "comment"` commit staged changes
 `git commit -a -m "comment"` direc commit skipping the stage area
 
-> branch
+### branch
 
 `git branch` see the branches an star the actual branch
 `git branch <name>` create the named branch
 `git checkout <name>` change to the named branch
 `git branch -v` show branches and commit
 
-> see branch log
+### see branch log
+
 `git log`
 > branch in one line
 `git log --online`
 > graph representation to see devergent branch
 `git log --online --graph --all`
+
+> Branching workflow in production
+
+- Long running branches (long term)
+  - Master
+  - Development
+- Topic branches (short term)
+  - Authentication
+  - UI changes
 
 ## Author
 
