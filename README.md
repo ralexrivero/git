@@ -46,6 +46,9 @@
 
 ### Rebasing
 
+> checkout the branch where commits will be rebased from
+`git checkout <branch>`
+`git rebase <branch to rebase>`
 
 ## Author
 
