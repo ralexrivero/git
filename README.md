@@ -35,7 +35,7 @@
 > graph representation to see devergent branch
 `git log --online --graph --all`
 
-> Branching workflow in production
+### Branching workflow in production
 
 - Long running branches (long term)
   - Master
@@ -43,6 +43,9 @@
 - Topic branches (short term)
   - Authentication
   - UI changes
+
+### Rebasing
+
 
 ## Author
 
