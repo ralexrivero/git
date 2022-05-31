@@ -48,7 +48,11 @@
 
 > checkout the branch where commits will be rebased from
 `git checkout <branch>`
-`git rebase <branch to rebase>`
+`git rebase master`
+`git checkout master`
+`git merge <branch>` merge the branch into master with fast forward strategy
+
+both branches are at the same point
 
 ## Author
 
