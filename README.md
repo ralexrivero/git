@@ -74,6 +74,12 @@ both branches are at the same point
 > change the messege of the last commit
 `git commit --amend` and modify the text in editor. Save changes
 
+> change the last commit
+
+Create changes, add them to the stage area, don't commit, and amend to add them to the last commit
+`git commit --amend` and modify the text in editor. Save changes
+
+> trying to change the last commit after pushing changes will cause a divergence
 
 ## Author
 
