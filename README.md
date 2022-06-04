@@ -54,6 +54,19 @@
 
 both branches are at the same point
 
+### Misc commands
+
+> show commit detail
+
+`git log`
+`git show <commit hash>`
+
+> stashing (changes not ready to be commited yet, unfinish work, task don't complete, then saved in a stack for apply later)
+
+`git stash` if the file is untracked is needed to be added to the stage area
+`git stash list` to see the stack of stashed changes
+`git stash apply stash@{0}` to apply the first stash or the number of the stash
+
 ## Author
 
 > Ronald
