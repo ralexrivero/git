@@ -68,6 +68,12 @@ both branches are at the same point
 `git stash apply stash@{0}` to apply the first stash or the number of the stash
 `git stash drop stash@{0}` to drop the stash
 
+> clean
+`git clean -f -d` recursively delete directories and files, forced
+
+> change the messege of the last commit
+`git commit --amend`
+
 ## Author
 
 > Ronald
