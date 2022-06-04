@@ -72,7 +72,8 @@ both branches are at the same point
 `git clean -f -d` recursively delete directories and files, forced
 
 > change the messege of the last commit
-`git commit --amend`
+`git commit --amend` and modify the text in editor. Save changes
+
 
 ## Author
 
