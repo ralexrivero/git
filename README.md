@@ -66,6 +66,7 @@ both branches are at the same point
 `git stash` if the file is untracked is needed to be added to the stage area
 `git stash list` to see the stack of stashed changes
 `git stash apply stash@{0}` to apply the first stash or the number of the stash
+`git stash drop stash@{0}` to drop the stash
 
 ## Author
 
