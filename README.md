@@ -93,6 +93,7 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 
 > reset
 `git reset --soft <commit_id>` to undo the changes and preserve the commit
+`git clean -f -d` after soft reset need to clean the files or stage and commit
 `git resrt --hard <comit_id>` to undo the changes and delete the commit
 
 ## Author
