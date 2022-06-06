@@ -96,6 +96,11 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 `git clean -f -d` after soft reset need to clean the files or stage and commit
 `git resrt --hard <comit_id>` to undo the changes and delete the commit
 
+> force origin update, delete commit
+> git log to see the commit, select the parent commit
+> `git reset --hard <parent_commit>`
+> `gti push -f origin <branch>`
+
 ## Author
 
 > Ronald
