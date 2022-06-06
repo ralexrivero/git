@@ -81,14 +81,17 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 
 > trying to change the last commit after pushing changes will cause a divergence
 
-## Author
-
 > switch
 `git switch <commit_id>`
 `git switch -` to go back to the last commit
 
 > create new branch from the past with the new commits
 `git switch -c <new_branch>` created from the checkout commit
+
+> revert
+> `git revert <commit_it>` to undo the changes and preserve the commit
+
+## Author
 
 > Ronald
 <!-- twitter -->
