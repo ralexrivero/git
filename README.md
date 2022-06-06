@@ -15,8 +15,8 @@
 `git switch <commit_id>`
 `git switch -` to go back to the last commit
 
-> create new branch from the past
-`git`
+> create new branch from the past with the new commits
+`git switch -c <new_branch>` created from the checkout commit
 
 > Ronald
 <!-- twitter -->
