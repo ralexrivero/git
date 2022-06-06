@@ -89,7 +89,11 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 `git switch -c <new_branch>` created from the checkout commit
 
 > revert
-> `git revert <commit_it>` to undo the changes and preserve the commit
+`git revert <commit_it>` to undo the changes and preserve the commit
+
+> reset
+`git reset --soft <commit_id>` to undo the changes and preserve the commit
+`git resrt --hard <comit_id>` to undo the changes and delete the commit
 
 ## Author
 
