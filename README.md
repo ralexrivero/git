@@ -51,6 +51,7 @@
 ### Rebasing
 
 > checkout the branch where commits will be rebased from
+
 - `git checkout <branch>`
 - `git rebase master`
 - `git checkout master`
@@ -113,6 +114,10 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 
 - `git reset --hard <parent_commit>`
 - `gti push -f origin <branch>`
+
+> cherry-picking commits
+
+`git cherry-pick <commit_id` take only one commit and apply to other branch
 
 ## Author
 
