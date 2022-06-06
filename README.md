@@ -13,27 +13,31 @@
 
 ### basics
 
-`git status` see the status of the branch, tracked, untracked, commited, changed files
-`git diff` see differences in files
-`git diff --staged` see differences in staged files
-`git add .` to add all the changes in the current branch to the stage area
-`git commit -m "comment"` commit staged changes
-`git commit -a -m "comment"` direc commit skipping the stage area
+- `git status` see the status of the branch, tracked, untracked, commited, changed files
+- `git diff` see differences in files
+- `git diff --staged` see differences in staged files
+- `git add .` to add all the changes in the current branch to the stage area
+- `git commit -m "comment"` commit staged changes
+- `git commit -a -m "comment"` direc commit skipping the stage area
 
 ### branch
 
-`git branch` see the branches an star the actual branch
-`git branch <name>` create the named branch
-`git checkout <name>` change to the named branch
-`git branch -v` show branches and commit
+- `git branch` see the branches an star the actual branch
+- `git branch <name>` create the named branch
+- `git checkout <name>` change to the named branch
+- `git branch -v` show branches and commit
 
 ### see branch log
 
-`git log`
+- `git log`
+
 > branch in one line
-`git log --online`
+
+- `git log --online`
+
 > graph representation to see devergent branch
-`git log --online --graph --all`
+
+- `git log --online --graph --all`
 
 ### Branching workflow in production
 
@@ -47,10 +51,10 @@
 ### Rebasing
 
 > checkout the branch where commits will be rebased from
-`git checkout <branch>`
-`git rebase master`
-`git checkout master`
-`git merge <branch>` merge the branch into master with fast forward strategy
+- `git checkout <branch>`
+- `git rebase master`
+- `git checkout master`
+- `git merge <branch>` merge the branch into master with fast forward strategy
 
 both branches are at the same point
 
@@ -58,48 +62,57 @@ both branches are at the same point
 
 > show commit detail
 
-`git log`
-`git show <commit hash>`
+- `git log`
+- `git show <commit hash>`
 
 > stashing (changes not ready to be commited yet, unfinish work, task don't complete, then saved in a stack for apply later)
 
-`git stash` if the file is untracked is needed to be added to the stage area
-`git stash list` to see the stack of stashed changes
-`git stash apply stash@{0}` to apply the first stash or the number of the stash
-`git stash drop stash@{0}` to drop the stash
+- `git stash` if the file is untracked is needed to be added to the stage area
+- `git stash list` to see the stack of stashed changes
+- `git stash apply stash@{0}` to apply the first stash or the number of the stash
+- `git stash drop stash@{0}` to drop the stash
 
 > clean
-`git clean -f -d` recursively delete directories and files, forced
+
+- `git clean -f -d` recursively delete directories and files, forced
 
 > change the messege of the last commit
-`git commit --amend` and modify the text in editor. Save changes
+
+- `git commit --amend` and modify the text in editor. Save changes
 
 > change the last commit
 
 Create changes, add them to the stage area, don't commit, and amend to add them to the last commit
-`git commit --amend` and modify the text in editor. Save changes
+
+- `git commit --amend` and modify the text in editor. Save changes
 
 > trying to change the last commit after pushing changes will cause a divergence
-
+>
 > switch
-`git switch <commit_id>`
-`git switch -` to go back to the last commit
+
+- `git switch <commit_id>`
+- `git switch -` to go back to the last commit
 
 > create new branch from the past with the new commits
-`git switch -c <new_branch>` created from the checkout commit
+
+- `git switch -c <new_branch>` created from the checkout commit
 
 > revert
-`git revert <commit_it>` to undo the changes and preserve the commit
+
+- `git revert <commit_it>` to undo the changes and preserve the commit
 
 > reset
-`git reset --soft <commit_id>` to undo the changes and preserve the commit
-`git clean -f -d` after soft reset need to clean the files or stage and commit
-`git resrt --hard <comit_id>` to undo the changes and delete the commit
+
+- `git reset --soft <commit_id>` to undo the changes and preserve the commit
+- `git clean -f -d` after soft reset need to clean the files or stage and commit
+- `git resrt --hard <comit_id>` to undo the changes and delete the commit
 
 > force origin update, delete commit
+>
 > git log to see the commit, select the parent commit
-> `git reset --hard <parent_commit>`
-> `gti push -f origin <branch>`
+
+- `git reset --hard <parent_commit>`
+- `gti push -f origin <branch>`
 
 ## Author
 
