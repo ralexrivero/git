@@ -33,11 +33,11 @@
 
 > branch in one line
 
-- `git log --online`
+- `git log --oneline`
 
 > graph representation to see devergent branch
 
-- `git log --online --graph --all`
+- `git log --oneline --graph --all`
 
 ### Branching workflow in production
 
@@ -118,6 +118,16 @@ Create changes, add them to the stage area, don't commit, and amend to add them 
 > cherry-picking commits
 
 `git cherry-pick <commit_id` take only one commit and apply to other branch
+
+## upload from local to remote
+
+> upload an existing Git project to GitHub
+>
+> create a repository on GitHub and add the remote
+
+- `git remote add origin https://github.com/ralexrivero/repository.git`
+- `git branch -M main` to rename the branch
+- `git push -u origin main` to push to remote on GitHub
 
 ## Author
 
